@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="urrutia.benavides.jorge.stayawareadministrador.AdminActivity">
+
+    <Button
+        android:id="@+id/btnveradultosAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Ver adultos mayores"
+        android:layout_below="@+id/btnregistrarredAdmin"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnregistraradultoAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Registrar adulto mayor"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnregistrarredAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="registrar red de apoyo"
+        android:layout_below="@+id/btnregistraradultoAdmin"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnasociarAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="asociar red - adulto"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/btnveradultosAdmin"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnbuscarAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnasociarAdmin"
+        android:layout_marginTop="10dp"
+        android:text="buscar persona" />
+
+</RelativeLayout>
